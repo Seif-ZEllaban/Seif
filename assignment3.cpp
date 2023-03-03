@@ -9,12 +9,14 @@ int main(){
     cout << "3.  The value of j3 is 0 because 2.4 * i = 240.0 and 240.0 / 3 = 80.0, which has a remainder of 0 when divided by 4." << "\n";
     cout << "4.  The value of j4 is also 0.0 for the same reason as j3, but the result is stored as a float." << "\n";
     cout << "\n" << "\n";
+    
     //second at home task.
     cout << "ANSWER OF AT HOME ASSIGNMENT no.2:" << "\n";
     cout << "1.  At comment no.4 there is a logic error due to a syntax error as it will do give out the average but it will:" << "\n" << ">first: divide n2 by 2." << "\n" << ">second: add the product of n2/2 to n1." << "\n";
     cout << "2.  At comment no.6 there is a runtime error due to a mathematical error where the program is told to divide by zero in which is not possible therefor it will provide an error." << "\n";
     cout << "3.  All other lines are error free" << "\n";
     cout << "\n" << "\n";
+    
     //third at home task.
     int a=3, b=2, c=-4,y;
     y = a + --b + ++c * a % c ;
@@ -141,7 +143,6 @@ int main(){
     }
     cout << "\n" << "\n";
 
-
     //second at lab task.
     cout << "ANSWER OF AT LAB ASSIGNMENT no.2:" << "\n";
     int order;
@@ -159,8 +160,9 @@ int main(){
         case 3: {
             cout << "The price for Chicken McNuggets is LE12 a piece.";
         }
-        break;
+        break;      
     }
+    cout << "\n" << "\n";
 
     //terminal work.
     system("pause");
