@@ -29,7 +29,7 @@ int main(){
     cout << "ANSWER OF AT LAB ASSIGNMENT no.1:" << "\n";
     for (int z=1; z >=6; ++z){
         switch (z){
-            case 1:
+            case 1: {
             int i=3, j=5, k=7;
             if (i < j) {
              if (j < k)
@@ -44,10 +44,10 @@ int main(){
                 i = k;
                 }
                 cout << "i = " << i << " j = " << j << " k = " << k << "\n";
-            break;
             }
-        switch (z){
-            case 2:
+            break;
+
+            case 2: {
             int i=3, j=7, k=5;
             if (i < j) {
              if (j < k)
@@ -60,12 +60,12 @@ int main(){
                 j = i;
                 else
                 i = k;
-                }
+              }
                 cout << "i = " << i << " j = " << j << " k = " << k << "\n";
-            break;
             }
-        switch (z){
-            case 3:
+            break;
+
+            case 3: {
             int i=5, j=3, k=7;
             if (i < j) {
              if (j < k)
@@ -80,10 +80,10 @@ int main(){
                 i = k;
                 }
                 cout << "i = " << i << " j = " << j << " k = " << k << "\n";
-            break;
             }
-        switch (z){
-            case 4:
+            break;
+            
+            case 4: {
             int i=5, j=7, k=3;
             if (i < j) {
              if (j < k)
@@ -98,10 +98,10 @@ int main(){
                 i = k;
                 }
                 cout << "i = " << i << " j = " << j << " k = " << k << "\n";
-            break;
             }
-        switch (z){
-            case 5:
+            break;
+
+            case 5: {
             int i=7, j=3, k=5;
             if (i < j) {
              if (j < k)
@@ -114,12 +114,12 @@ int main(){
                 j = i;
                 else
                 i = k;
-                }
+              }
                 cout << "i = " << i << " j = " << j << " k = " << k << "\n";
+              }
             break;
-            }
-        switch (z){
-            case 6:
+            
+            case 6: {
             int i=7, j=5, k=3;
             if (i < j) {
              if (j < k)
@@ -134,8 +134,10 @@ int main(){
                 i = k;
                 }
                 cout << "i = " << i << " j = " << j << " k = " << k << "\n";
-            break;
             }
+            break;
+        }
+            
     }
             
         
