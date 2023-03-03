@@ -25,7 +25,7 @@ int main(){
     cout << "The value of Y is equal to: " << y << "\n";
     cout << "\n" << "\n";
     
-    //first at lab assignment.
+    //first at lab task.
     cout << "ANSWER OF AT LAB ASSIGNMENT no.1:" << "\n";
     for (int z=1; z <=6; ++z){
         switch (z){
@@ -139,8 +139,27 @@ int main(){
         }
             
     }
-            
-        
+    cout << "\n" << "\n";
+
+
+    //second at lab task.
+    int order;
+    cout << "Which sandwich you would like to have:" << "\n" << "1- Spicy Crispy Chicken Sandwich." << "\n" << "2- Big Mac." << "\n" << "3- Chicken McNuggets." << "\n";
+    cin >> order;
+    switch (order) {
+        case 1: {
+            cout << "The price for Spicy Crispy Chicken Sandwich is LE69.";
+        }
+        break;
+        case 2: {
+            cout << "The price for Big Mac is LE80.";
+        }
+        break;
+        case 3: {
+            cout << "The price for Chicken McNuggets is LE12 a piece.";
+        }
+        break;
+    }
 
     //terminal work.
     system("pause");
