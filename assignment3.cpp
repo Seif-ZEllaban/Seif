@@ -143,6 +143,7 @@ int main(){
 
 
     //second at lab task.
+    cout << "ANSWER OF AT LAB ASSIGNMENT no.2:" << "\n";
     int order;
     cout << "Which sandwich you would like to have:" << "\n" << "1- Spicy Crispy Chicken Sandwich." << "\n" << "2- Big Mac." << "\n" << "3- Chicken McNuggets." << "\n";
     cin >> order;
