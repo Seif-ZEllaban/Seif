@@ -27,7 +27,7 @@ int main(){
     
     //first at lab assignment.
     cout << "ANSWER OF AT LAB ASSIGNMENT no.1:" << "\n";
-    for (int z=1; z >=6; ++z){
+    for (int z=1; z <=6; ++z){
         switch (z){
             case 1: {
             int i=3, j=5, k=7;
@@ -43,7 +43,7 @@ int main(){
                 else
                 i = k;
                 }
-                cout << "i = " << i << " j = " << j << " k = " << k << "\n";
+                cout << "a) i = " << i << " j = " << j << " k = " << k << "\n";
             }
             break;
 
@@ -61,7 +61,7 @@ int main(){
                 else
                 i = k;
               }
-                cout << "i = " << i << " j = " << j << " k = " << k << "\n";
+                cout << "b) i = " << i << " j = " << j << " k = " << k << "\n";
             }
             break;
 
@@ -79,7 +79,7 @@ int main(){
                 else
                 i = k;
                 }
-                cout << "i = " << i << " j = " << j << " k = " << k << "\n";
+                cout << "c) i = " << i << " j = " << j << " k = " << k << "\n";
             }
             break;
             
@@ -97,7 +97,7 @@ int main(){
                 else
                 i = k;
                 }
-                cout << "i = " << i << " j = " << j << " k = " << k << "\n";
+                cout << "d) i = " << i << " j = " << j << " k = " << k << "\n";
             }
             break;
 
@@ -115,7 +115,7 @@ int main(){
                 else
                 i = k;
               }
-                cout << "i = " << i << " j = " << j << " k = " << k << "\n";
+                cout << "e) i = " << i << " j = " << j << " k = " << k << "\n";
               }
             break;
             
@@ -133,7 +133,7 @@ int main(){
                 else
                 i = k;
                 }
-                cout << "i = " << i << " j = " << j << " k = " << k << "\n";
+                cout << "f) i = " << i << " j = " << j << " k = " << k << "\n";
             }
             break;
         }
