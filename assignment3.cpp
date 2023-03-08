@@ -160,7 +160,9 @@ int main(){
         case 3: {
             cout << "The price for Chicken McNuggets is LE12 a piece.";
         }
-        break;      
+        break; 
+        default:
+            cout << "Please enter a valid choise.\n";
     }
     cout << "\n" << "\n";
 
