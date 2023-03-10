@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int weekNumber;
-    cout << "Enter week number (1-7): ";
+    cout << "Enter Day Number (1-7): ";
     cin >> weekNumber;
 
     switch (weekNumber) {
