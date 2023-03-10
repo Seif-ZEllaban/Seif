@@ -7,8 +7,9 @@ using namespace std;
 enum Choice { ROCK, PAPER, SCISSORS };
 enum Result { WIN, LOSE, TIE };
 
-int main()
-{
+int main(){
+    int server = 69;
+    do{
     srand(time(NULL));
 
     Choice player1_choice;
@@ -16,10 +17,10 @@ int main()
     Result result;
     int y;
 
-    cout << "Let's play Rock, Paper, Scissors!" << endl;
+    cout << "Rock, Paper, Scissors!" << endl;
 
     do {
-        cout << "Player 1: Choose your weapon (0 for rock, 1 for paper, 2 for scissors): ";
+        cout << "Choose your weapon (0 for rock, 1 for paper, 2 for scissors): ";
         cin >> y;
         player1_choice = (Choice)y;
     } while (player1_choice != ROCK && player1_choice != PAPER && player1_choice != SCISSORS);
@@ -54,17 +55,18 @@ int main()
 
     switch (result) {
         case WIN:
-            cout << "Player 1 wins!" << endl;
+            cout << ">>Player wins!\n\n" << endl;
             break;
         case LOSE:
-            cout << "Computer wins!" << endl;
+            cout << ">>Computer wins!\n\n" << endl;
             break;
         case TIE:
-            cout << "It's a tie!" << endl;
+            cout << ">>It's a tie!\n\n" << endl;
             break;  
         default:
             break;      
      }
-
+     } while (server!=0);
+     system("pause");
      return 0; 
 }
