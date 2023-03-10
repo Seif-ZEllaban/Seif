@@ -26,7 +26,7 @@ int main()
 
     player2_choice = static_cast<Choice>(rand() % 3);
 
-    cout << "Player 2 chooses: ";
+    cout << "Computer chooses: ";
 
     switch (player2_choice) {
         case ROCK:
@@ -57,7 +57,7 @@ int main()
             cout << "Player 1 wins!" << endl;
             break;
         case LOSE:
-            cout << "Player 2 wins!" << endl;
+            cout << "Computer wins!" << endl;
             break;
         case TIE:
             cout << "It's a tie!" << endl;
