@@ -31,6 +31,6 @@ int main() {
         default:
             cout << "Invalid input! Please enter a number between 1 and 7.";
     }
-
+    system("pause");
     return 0;
 }
