@@ -58,6 +58,7 @@ if(k%2==0)
 }
 cout<<“sum=”<<sum;
 ```
+---
 ##### Q3) Trace
 a)
 ```
@@ -111,7 +112,9 @@ etc
 The code adds up all even numbers starting from 2, and prints the current value of the sum in each iteration of the while loop. Since the condition (k >= 1) is always true, the code will run indefinitely, adding up even numbers and printing the value of sum in each iteration.
 Therefore, the output of the code will be an infinite series of even numbers, starting from 2.
 ```
+---
 ##### Q4) In Lab
+---
 ##### Q5) 
 ```
 #include <iostream>
@@ -143,6 +146,7 @@ int main() {
     return 0;
 }
 ```
+---
 ##### Q6)
 a)
 ```
@@ -269,6 +273,7 @@ int main() {
     return 0;
 }
 ```
+---
 ##### Q7)
 ```
 #include <iostream>
@@ -303,6 +308,7 @@ int main() {
     return 0;
 }
 ```
+---
 ##### Q8)
 ```
 Trace:
