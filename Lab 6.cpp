@@ -19,6 +19,7 @@ void main (){
     float num;
     int last;
     int run2 = 1;
+
     do
     {
         do 
