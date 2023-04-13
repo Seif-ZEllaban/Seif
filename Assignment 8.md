@@ -85,7 +85,7 @@ void main()
 }
 ```
 ---
-###### Question 3: Write a C++ program:
+###### Question 3: Write a C++ program: **(incomplete)**
 ```cpp
 
 ```
@@ -153,7 +153,7 @@ void main()
 }
 ```
 ---
-###### Question 5:
+###### Question 5: **(incomplete)**
 ```cpp
 #include <iostream>
 using namespace std;
