@@ -90,7 +90,7 @@ void main()
 
 ```
 ---
-###### Question 4: Q4) Write a C++ program that reads a two dimensional array M of size (3 × 3):
+###### Question 4: Write a C++ program that reads a two dimensional array M of size (3 × 3):
 ```cpp
 #include <iostream>
 using namespace std;
