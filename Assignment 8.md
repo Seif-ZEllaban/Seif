@@ -180,7 +180,7 @@ When we run this program, we should see the output:
 ```cpp
 sum = 224
 ```
-
+---
 b)
 ```cpp
 int A[] = {2, 1, 3, 0, 5, 4}; // Initialize the array A with 6 elements
