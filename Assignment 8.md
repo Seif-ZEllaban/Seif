@@ -31,7 +31,7 @@ using namespace std;
 
 void main() 
 {
-	//Decalration
+	//Declaration
 	array<int, 10> nums;
 	float sum = 0;
 	float avg = 0;
@@ -90,7 +90,7 @@ void main()
 
 ```
 ---
-###### Question 4: Write a C++ program that reads a two dimensional array M of size (3 × 3):
+###### Question 4: Q4) Write a C++ program that reads a two dimensional array M of size (3 × 3):
 ```cpp
 #include <iostream>
 using namespace std;
@@ -155,7 +155,24 @@ void main()
 ---
 ###### Question 5:
 ```cpp
+#include <iostream>
+using namespace std;
 
+void main() {
+    //Declaration
+    int M[10][10];
+    int sumCircumference = 0;
+
+    //Fill each location in M with its index summation
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            M[i][j] = i + j;
+        }
+    }
+
+    //Calculate the summation of the elements located at the circumference
+
+}
 ```
 ---
 ###### Question 6: Trace:
