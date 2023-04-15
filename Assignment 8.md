@@ -1,6 +1,6 @@
 ## Lab 7 [[Comp 104]]: Arrays.
 #Assignment 
-
+File language: [[C++]]
 ###### Question 1: Correct the errors in the following C++ codes:
 a)
 ```cpp
@@ -18,7 +18,7 @@ int n = 10;
 ```
 c)
 ```cpp
-~float A[]=[5, 6, 9, 4]; 
+~float A[]={5, 6, 9, 4}; 
 for(int i=0; i<4; i++) 
 ~cout << A[i] * A[i]
 ```
@@ -29,7 +29,7 @@ for(int i=0; i<4; i++)
 #include <array>
 using namespace std;
 
-void main() 
+void main()
 {
 	//Declaration
 	array<int, 10> nums;
@@ -45,7 +45,7 @@ void main()
 	//Array Filling
 	for (int i = 0; i < nums.size(); i++)
 	{
-		cout << "Enter number no." << i+1 << ": ";
+		cout << "Enter number no." << i + 1 << ": ";
 		cin >> nums[i];
 		sum += nums[i];
 		if ((nums[i] % 2) == 0)
@@ -63,8 +63,9 @@ void main()
 	arrayMin = nums[0];
 	arrayMax = nums[0];
 
+	cout << "Positions of elements divisible by 3 are: ";
 	//Find maximum and minimum in all array elements.
-	for (int j = 1; j < nums.size(); j++)
+	for (int j = 0; j < 10; j++)
 	{
 		//If current element is greater than max
 		if (nums[j] > arrayMax)
@@ -73,8 +74,11 @@ void main()
 		//If current element is smaller than min
 		if (nums[j] < arrayMin)
 			arrayMin = nums[j];
+		//If current element is divisible by 3
+		if (((nums[j] % 3) == 0) & (nums[j] != 0))
+			cout << j+1 << ", ";
 	}
-
+	cout << endl;
 
 	//Outputs
 	cout << "Sum = " << sum << endl;
@@ -175,7 +179,7 @@ void main() {
 }
 ```
 ---
-###### Question 6: Trace:
+###### Question 6: Trace A:
 a)
 ```cpp
 int A[] = {20, 13, 5, 8, 6, 7}; // Initialize the array A with 6 elements
@@ -198,7 +202,7 @@ When we run this program, we should see the output:
 sum = 224
 ```
 ---
-###### Question 6: Trace:
+###### Question 6: Trace B:
 b)
 ```cpp
 int A[] = {2, 1, 3, 0, 5, 4}; // Initialize the array A with 6 elements
