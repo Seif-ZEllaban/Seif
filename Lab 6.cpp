@@ -12,18 +12,22 @@ bool isPrime(int n) {
     }
     return true;
 }
-void main (){
+void main() {
+    //first question variables.
     int x, y;
     int count = 0;
     int run1 = 1;
-    float num;
-    int last;
+    //second question viarables.
+    float num = 10;
+    int last = 10;
     int run2 = 1;
 
+    //first question solution:
     do
     {
-        do 
+        do
         {
+            count = 0;
             cout << endl;
             cout << "Enter first integers (x < y): ";
             cin >> x;
@@ -37,22 +41,25 @@ void main (){
             }
         }
 
-        cout << "The number of primes between " << x << " and " << y << " is: " << count << endl ;
+        cout << "The number of primes between " << x << " and " << y << " is: " << count << endl;
         cout << "Run again? (1 for yes, 0 for no): ";
         cin >> run1;
     } while (run1 == 1);
-       
+
+    // second question solution:
     do
     {
         cout << endl;
-        cout << "Enter a number to view it's times table: ";
+        //Remove "/**/ to add option to change number of times table."
+        /*
+        cout << "Enter number: ";
         cin >> num;
-        cout << "Enter an integer number to end the times table: ";
-        cin >> last;
-        cout << "Times Table for " << num << " is: " << endl;
-
-        for (int i = 0; i <= last; i++) {
-            cout << i << ". " << num << " x " << i << " = " << num * i << endl;
+        */
+        for (num = 0; num <= 10; num++) {
+            for (int i = 0; i <= last; i++) {
+                cout << num * i << "    ";
+            }
+            cout << endl;
         }
         cout << "Run again? (1 for yes, 0 for no): ";
         cin >> run2;
